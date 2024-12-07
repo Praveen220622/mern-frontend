@@ -1,0 +1,85 @@
+.outer-container {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10px;
+    display: flex;
+}
+
+.image {
+    width: 40vw;
+    height: 90vh;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+    .image {
+        display: none;
+    }
+}
+
+.container1 {
+    height: 30vh;
+}
+
+.container2 {
+    height: 40vh;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 30vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.span-element {
+    color: blue;
+    text-decoration: underline;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.paragraph-container {
+    margin-top: -150px;
+    width: 30vw;
+    margin-left: 175px;
+}
+
+/* form stylings*/
+.Input-Type {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    font-style: italic;
+}
+
+.inputs-container {
+    margin-top: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputs-value {
+    width: 400px;
+    margin-left: 25px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    height: 37px;
+    color: white;
+    font-size: 18px;
+    width: 110px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

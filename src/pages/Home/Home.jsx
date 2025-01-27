@@ -29,6 +29,10 @@ const Home = () => {
                 <button className='logout-button' onClick={handleLogout}>Logout</button>
 
             </div>
+            <div className='shop-container'>
+                <h1>Start Your Shopping from Here..!</h1>
+                <a href='https://ecommercewebsite-rho.vercel.app/'><buttton className="btn">Shop Now</buttton></a>
+            </div>
             <ToastContainer />
         </>
     );
